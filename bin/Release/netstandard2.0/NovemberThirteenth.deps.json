@@ -11,7 +11,7 @@
         "dependencies": {
           "NETStandard.Library": "2.0.3",
           "RiskOfRain2.GameLibs": "1.2.1-r.0",
-          "BepInEx": "5.4.19.0",
+          "BepInEx": "5.4.21.0",
           "UnityEngine.CoreModule": "0.0.0.0",
           "UnityEngine": "0.0.0.0"
         },
@@ -77,11 +77,11 @@
           }
         }
       },
-      "BepInEx/5.4.19.0": {
+      "BepInEx/5.4.21.0": {
         "runtime": {
           "BepInEx.dll": {
-            "assemblyVersion": "5.4.19.0",
-            "fileVersion": "5.4.19.0"
+            "assemblyVersion": "5.4.21.0",
+            "fileVersion": "5.4.21.0"
           }
         }
       },
@@ -101,6 +101,14 @@
           }
         }
       },
+      "MonoMod.Utils/22.1.29.1": {
+        "runtime": {
+          "MonoMod.Utils.dll": {
+            "assemblyVersion": "22.1.29.1",
+            "fileVersion": "22.1.29.1"
+          }
+        }
+      },
       "Mono.Cecil/0.10.4.0": {
         "runtime": {
           "Mono.Cecil.dll": {
@@ -114,14 +122,6 @@
           "0Harmony.dll": {
             "assemblyVersion": "2.9.0.0",
             "fileVersion": "2.9.0.0"
-          }
-        }
-      },
-      "MonoMod.Utils/22.1.29.1": {
-        "runtime": {
-          "MonoMod.Utils.dll": {
-            "assemblyVersion": "22.1.29.1",
-            "fileVersion": "22.1.29.1"
           }
         }
       },
@@ -578,7 +578,7 @@
       "path": "riskofrain2.gamelibs/1.2.1-r.0",
       "hashPath": "riskofrain2.gamelibs.1.2.1-r.0.nupkg.sha512"
     },
-    "BepInEx/5.4.19.0": {
+    "BepInEx/5.4.21.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
@@ -593,17 +593,17 @@
       "serviceable": false,
       "sha512": ""
     },
+    "MonoMod.Utils/22.1.29.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Mono.Cecil/0.10.4.0": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""
     },
     "0Harmony/2.9.0.0": {
-      "type": "reference",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "MonoMod.Utils/22.1.29.1": {
       "type": "reference",
       "serviceable": false,
       "sha512": ""

@@ -26,7 +26,7 @@ namespace NovemberThirteenth
             }
         }
 
-        public void FixedUpdate()
+        public void Update()
         {
             bool isStunned = false;
             bool isShocked = false;

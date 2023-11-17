@@ -11,7 +11,7 @@ namespace NovemberThirteenth
 #if DEBUG
             "9999." +
 #endif
-            "0.0.1";
+            "0.0.2";
 
         internal const string ModIdentifier = "NovemberThirteenth";
         internal const string ModGuid = "com.Anreol." + ModIdentifier;
@@ -27,9 +27,12 @@ namespace NovemberThirteenth
 
         private void Gummyfy(RoR2.CharacterBody obj)
         {
-            if (obj.inventory.GetItemCount(RoR2.DLC1Content.Items.GummyCloneIdentifier.itemIndex) > 0)
+            if(obj && obj.gameObject && obj.inventory)
             {
-                obj.gameObject.AddComponent<GummyBearMusicDisc>();
+                if (obj.inventory.GetItemCount(RoR2.DLC1Content.Items.GummyCloneIdentifier.itemIndex) > 0)
+                {
+                    obj.gameObject.AddComponent<GummyBearMusicDisc>();
+                }
             }
         }
 
