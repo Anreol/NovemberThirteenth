@@ -1,0 +1,9 @@
+﻿{
+	"name": "GummyMan",
+	"version_number": "0.0.2",
+	"website_url": "https://github.com/Anreol/NovemberThirteenth",
+	"description": "Look for the Goboo Jr album in stores on November 13th, with lots of music, videos and extras.",
+	"dependencies": [
+		"bbepis-BepInExPack-5.4.1801"
+	]
+}
