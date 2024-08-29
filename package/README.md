@@ -7,6 +7,9 @@ Feel free to use the code as a example on how to implement Wwise in your mod.
 You can contact me by messaging to Anreol on the Discord Messaging Platform
 
 ## Changelog
+**0.0.3**
+* Recompiled for ver. 1.3.1#274
+
 **0.0.2**
 * Null checked the body and inventory objects because it'd throw issues with bodies that had no inventories.
 * FixedUpdate is now a Update cycle.
